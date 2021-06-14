@@ -12,7 +12,6 @@ public class GUITests {
     public void openGooglePageTest() throws InterruptedException {
         DriverManagerType driverManagerType = DriverManagerType.CHROME;
         WebDriverManager.getInstance(driverManagerType).setup();
-
         //Thread.sleep(3000);
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/"); // transfer according to the URL
